@@ -1,0 +1,1 @@
+const t=t=>`helio_human_${t}`,r=r=>{try{return JSON.parse(window.localStorage.getItem(t(r))||"{}")}catch{return{}}};function n(t){const{until:n}=r(t);return"number"==typeof n&&n>=Date.now()}function e(t){return Number(r(t).cursor)||0}function o(r,n){try{window.localStorage.setItem(t(r),JSON.stringify(n))}catch{}}export{n as i,e as r,o as w};
